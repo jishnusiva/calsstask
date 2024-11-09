@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand{
+    font-size: 10rem;
+    color: white;
+    font-family: "Rye", serif;
+    font-weight: 800;
+
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(241, 235, 235);
+    text-transform: uppercase;
+    font-family: "Rye", serif;
+}
+.nav-link:hover{
+    color: rgb(250, 243, 243);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(240, 61, 61)
+    ;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    border-radius: 60px;
+    outline: none;
+    border:none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 70;
+}
+.picture{
+    width: 640px;
+    height: 400px;
+    
+}
+.main{
+    background: url(./img/duo-paintball-players-in-the-woods-1tft3eb0hjp4n1ty.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.subsec{
+    background: url(./img/bg5.jpg);
+    object-fit: fill;
+}
+.head1{
+    color: white;
+    font-family: "Rye", serif;
+}
+.para1{
+    color: white;
+    font-family: "Satisfy", serif;
+    
+    font-weight: 400;
+    font-style: normal;
+}
+.prod{
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(53, 44, 44);
+    font-family: "Rye", serif;
+    text-decoration: underline;
+}
+.products{
+ font-size: 25px;
+ font-weight: 400;
+ font-family: "Sedan SC", serif;
+}
+.back{
+    border: rgb(42, 54, 97);
+
+}
+.map{
+    width: 100%;
+    object-fit: cover;
+}
+.contact{
+    background: black;
+    color: white;
+}
